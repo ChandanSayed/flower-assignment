@@ -14,6 +14,9 @@ body {
 .mb-24 {
   margin-bottom: 24px;
 }
+.mb-48 {
+  margin-bottom: 48px;
+}
 
 .mb-32 {
   margin-bottom: 32px;
@@ -80,6 +83,12 @@ img {
   text-align: center;
 }
 
+h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 900;
+}
+
 /* Shared styles end  */
 
 .hero {
@@ -108,15 +117,11 @@ img {
 .feature-flower {
   padding: 178px 0 128px;
 }
-.feature-flower h2 {
-  color: #272727;
-  font-size: 40px;
-  font-weight: 900;
-}
-.feature-flower p {
+
+.feature-flower p,
+.instagram p {
   color: rgba(39, 39, 39, 0.6);
   max-width: 594px;
-  margin-bottom: 48px;
 }
 .feature-flower .flex {
   column-gap: 24px;
@@ -148,6 +153,10 @@ img {
   font-size: 24px;
   font-weight: 700;
   line-height: 35px;
+}
+
+.instagram .flex {
+  column-gap: 24px;
 }
 
 footer {
