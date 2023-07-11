@@ -176,7 +176,25 @@ h2 {
   font-size: 24px;
   line-height: 1.5;
 }
+.hot-deal {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.hot-deal-des,
+.hot-deal-img {
+  width: 50%;
+}
 
+.hot-deal-img img {
+  display: block;
+  max-width: 318px;
+}
+.instagram {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
 .instagram .flex {
   column-gap: 24px;
 }
