@@ -64,6 +64,7 @@ img {
 .description {
   font-size: 18px;
   line-height: 1.67;
+  color: rgba(39, 39, 39, 0.6);
 }
 .btn {
   border-radius: 8px;
@@ -199,6 +200,32 @@ h2 {
   column-gap: 24px;
 }
 
+.newsletter {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 1440px;
+  background-image: url('../images/newsletter.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 122px;
+  padding-bottom: 122px;
+  border-radius: 8px;
+  margin-bottom: 128px;
+}
+
+.newsletter .flex {
+  column-gap: 16px;
+  max-width: 866px;
+}
+
+.newsletter .flex input {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 24px;
+  font-size: 18px;
+}
+
 footer {
   background-color: #111010;
   padding: 128px 15px;
@@ -215,6 +242,7 @@ footer .logo-left {
 
 footer .description {
   max-width: 625px;
+  color: #fff;
 }
 
 footer .copyright {
